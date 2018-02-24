@@ -7,14 +7,15 @@
 </head>
 
 <body>
-  <textarea rows="4" cols="50" placeholder="Input your text here." ></textarea>
+  <textarea id="input-text" rows="4" cols="50" placeholder="Input your text here."></textarea>
   <div id="outer" style="width:100%">
     <div id="inner">
-      <button id="left-button" type="button">Encode</button>
-      <button id="left-button" type="button">Decode</button>
+      <button id="encode" type="button">Encode</button>
+      <button id="decode" type="button">Decode</button>
     </div>
   </div>
-  <textarea rows="4" cols="50" placeholder="Your output will appear here."></textarea>
+  <textarea id="output-text" rows="4" cols="50" placeholder="Your output will appear here."></textarea>
+  <script src="popup.js"></script>
 </body>
 
 </html>

@@ -14,11 +14,11 @@ button {
     margin: 0 auto;
 }
 
-#left-button {
+#encode {
     margin-right: 5px;
 }
 
-#right-button {
+#decode {
     margin-left: 5px;
 }
 
