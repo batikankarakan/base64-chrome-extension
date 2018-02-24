@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
   encodeButton.addEventListener('click', function () {
     var inputValue = document.getElementById("input-text").value;
     var encodedString = btoa(inputValue);
-    console.log(encodedString);
+    document.getElementById("output-text").value = encodedString;
   });
 
   // add event listener to decode button.
@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
   decodeButton.addEventListener('click', function () {
     var inputValue = document.getElementById("input-text").value;
     var decodedString = atob(inputValue);
-    console.log(decodedString);
+    document.getElementById("output-text").value = decodedString;
   });
 });
